@@ -110,3 +110,7 @@ console.log('arrTen',arrTen);
 // });
 
 // console.log('arrGia',arrGia);
+
+const store =() =>{
+    return localStorage.getItem('arrSinhVien');
+}
